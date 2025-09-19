@@ -1,0 +1,38 @@
+{
+  "name": "android-manifest-exported-extractor",
+  "version": "1.0.0",
+  "description": "CLI tool to extract exported components and intent filters from AndroidManifest.xml files",
+  "main": "index.js",
+  "bin": {
+    "android-manifest-extractor": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js AndroidManifest.xml"
+  },
+  "keywords": [
+    "android",
+    "manifest",
+    "exported",
+    "intent-filter",
+    "security",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/android-manifest-exported-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/android-manifest-exported-extractor/issues"
+  },
+  "homepage": "https://github.com/yourusername/android-manifest-exported-extractor#readme"
+}
