@@ -18,7 +18,7 @@
     "security",
     "cli"
   ],
-  "author": "Your Name",
+  "author": "Tiago Danin",
   "license": "MIT",
   "dependencies": {
     "xml2js": "^0.6.2",
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/android-manifest-exported-extractor.git"
+    "url": "https://github.com/TiagoDanin/AndroidManifestExported.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/android-manifest-exported-extractor/issues"
+    "url": "https://github.com/TiagoDanin/AndroidManifestExported/issues"
   },
-  "homepage": "https://github.com/yourusername/android-manifest-exported-extractor#readme"
+  "homepage": "https://github.com/TiagoDanin/AndroidManifestExported#readme"
 }
