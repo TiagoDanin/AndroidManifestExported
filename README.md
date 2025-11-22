@@ -1,6 +1,6 @@
 # Android Manifest Exported Extractor
 
-A CLI tool to extract exported components and intent filters from AndroidManifest.xml files. This tool helps security researchers and developers identify potentially vulnerable Android components that are exposed to other applications.
+A CLI tool to extract exported and enabled components and intent filters from AndroidManifest.xml files. This tool helps security researchers and developers identify potentially vulnerable Android components that are exposed to other applications.
 
 ## Features
 
@@ -82,7 +82,8 @@ This tool is particularly useful for:
 ### What gets extracted?
 
 1. **Explicitly exported components**: Components with `android:exported="true"`
-2. **Implicitly exported components**: Components with intent filters (which are exported by default in older Android versions)
+2. **Explicitly enabled components**: Components with `android:enabled="true"`
+3. **Implicitly exported components**: Components with intent filters (which are exported by default in older Android versions)
 
 ### Component types analyzed:
 

@@ -1,7 +1,7 @@
 {
   "name": "android-manifest-exported-extractor",
-  "version": "1.0.0",
-  "description": "CLI tool to extract exported components and intent filters from AndroidManifest.xml files",
+  "version": "1.1.0",
+  "description": "CLI tool to extract exported and enabled components and intent filters from AndroidManifest.xml files",
   "main": "index.js",
   "bin": {
     "android-manifest-extractor": "./bin/cli.js"
